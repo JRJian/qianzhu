@@ -2,14 +2,16 @@
 <html lang="zh-cn">
 <head>
 	<meta charset="UTF-8" />
-	<title>北京网站建设|网站制作|网站设计|高端网站建设 - 千助</title>
-    <meta name="description" content="千助,北京网站建设领跑者,高端网站制作品牌服务商,荣获网页设计联盟金牌企业大奖,7年专注高端网站建设、手机移动网站建设、微网站制作,服务器运维,为企业客户的互联网应用提供一站式服务解决方案." />
-    <meta name="keywords" content="网站建设,北京网站建设,网站制作,北京网站制作,网站设计,北京网站设计,网页设计,北京网页设计,北京网站建设公司,千助" />
+	<title>深圳网站建设|网站制作|网站设计|高端网站建设 - 勤合</title>
+    <meta name="description" content="勤合专注高端网站建设、手机移动网站建设、微网站制作,服务器运维,为企业客户的互联网应用提供一站式服务解决方案." />
+    <meta name="keywords" content="网站建设,北京网站建设,网站制作,深圳网站制作,网站设计,深圳网站设计,网页设计,深圳网页设计,深圳网站建设公司,深圳" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
-    <meta name="copyright" content="Copyright 1000zhu.com 版权所有" />
+    <meta name="copyright" content="Copyright qinhe 版权所有" />
     <link href="/qinhe/plugin/ui/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/qinhe/css/jquery.fullpage.min.css" rel="stylesheet" />
+    <link href="/qinhe/css/index.min.css" rel="stylesheet" />
     <link href="/qinhe/css/qinhe.css" rel="stylesheet" />
+    <link href="/qinhe/css/idangerous.swiper2.7.6.css" rel="stylesheet" />
     <!--[if lt IE 9]>
     <script src="/qinhe/js/html5shiv.min.js"></script>
     <![endif]-->
@@ -17,6 +19,7 @@
     <script type="text/javascript" src="/qinhe/vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="/qinhe/vendors/scrolloverflow.js"></script>
     <script src="/qinhe/js/jquery.fullpage.extensions.min.js"></script>
+    <script src="/qinhe/js/idangerous.swiper2.7.6.min.js"></script>
     <!--<script src="/qinhe/js/index.min.js"></script>-->
 </head>
 
@@ -44,9 +47,10 @@
   			<a href="tel:4006123011" title="点击直拨网站建设热线"><span class="glyphicon glyphicon-earphone"></span></a>
             <span class="glyphicon glyphicon-th-large"></span>
         </div>
+        <div class="bg"></div>
     </header>
     
-    <div class="welcome"><p><u></u></p></div>
+    <!--<div class="welcome"><p><u></u></p></div>-->
 
     <div id="wrapper">
         <section class="section video">
@@ -128,6 +132,7 @@
                         <p>我们不只提供云硬件和网络<br />更加注重技术运维</p>
                     </li>
                 </ul>
+                <label></label>
             </div>
         </section>
 
@@ -316,8 +321,52 @@
         $('#wrapper').fullpage({
             'verticalCentered': false,
             'css3': true,
-            'sectionsColor': ['#F0F2F4', '#fff', '#fff', '#fff']
+            'sectionsColor': ['#F0F2F4', '#fff', '#fff', '#fff'],
+            "onLeave":function(index,nextIndex ){
+                if(index===1){
+                    $('header').addClass('fixed')
+                }
+                if(index===2 && nextIndex===1){
+                    $('header').removeClass('fixed')
+                }
+            }
         });
+        var winHeight= $(window).height();
+        var mySwiper = new Swiper('.swiper-container',{
+            loop:true,
+            grabCursor: true,
+            paginationClickable: true
+        })
+
+        setBusinessWidth()
+        function setBusinessWidth(){
+            var $wrap = $('.business .items');
+            if(window.innerWidth>=1150){
+                $wrap.css({
+                    width:$wrap.find('.pc').outerWidth(true)* $wrap.find('li').length + ($wrap.find('li').length*5)
+                })
+            }
+        }
+
+        setItemsWidth('.marketing .items')
+        function setItemsWidth(elm){
+            var $wrap = $(elm);
+            var length = $wrap.find('li').length;
+            var singleWidth = $wrap.find('li').eq(0).outerWidth(true);
+            $wrap.css({
+                width:length * singleWidth
+            })
+        }
+
+        $('.section .box').each(function(index,elm){
+            setPosMid(elm);
+        })
+        function setPosMid(elm){
+            var $wrap = $(elm);
+            $wrap.css({
+                top:(winHeight - $wrap.outerHeight(true))/2
+            })
+        }
     })
 </script>
 </html>

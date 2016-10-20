@@ -197,7 +197,7 @@ header .hotline u {
     width:30px;
     height:30px;
     text-decoration:none;
-    background:url(/images/icons.png) no-repeat;
+    background:url(/qinhe/images/icons.png) no-repeat;
     -webkit-transition:all .2s ease-in-out 0s;
     -moz-transition:all .2s ease-in-out 0s;
     -ms-transition:all .2s ease-in-out 0s;
@@ -272,7 +272,7 @@ div.welcome {
     position:fixed;
     width:100%;
     height:100%;
-    background:url(/images/welcome.jpg) 30% 80%;
+    background:url(/qinhe/images/welcome.jpg) 30% 80%;
     background-color:White;
     -moz-background-size:cover;
     background-size:cover;
@@ -297,14 +297,14 @@ div.welcome p {
     color:#19b3a5;
     font-size:20px;
     text-align:center;
-    background:url(/images/welcome_words.png) no-repeat;
+    background:url(/qinhe/images/welcome_words.png) no-repeat;
     overflow:hidden;
 }
 div.welcome p u {
     display:block;
     width:100%;
     height:100%;
-    background:url(/images/loading.gif) no-repeat center center;
+    background:url(/qinhe/images/loading.gif) no-repeat center center;
 }
 section {
     position:relative;
@@ -318,7 +318,7 @@ section {
     overflow:hidden;
 }
 .video .swiper-container .nth1 {
-    background:url(/images/wp1_1.jpg) 50% 35%;
+    background:url(/qinhe/images/wp1_1.jpg) 50% 35%;
     -moz-background-size:cover;
     background-size:cover;
 }
@@ -337,7 +337,7 @@ section {
     left:-300px;
     width:123px;
     height:231px;
-    background:url(/images/words.png) no-repeat top right;
+    background:url(/qinhe/images/words.png) no-repeat top right;
     -moz-opacity:0;
     opacity:0;
     -webkit-transition:all .5s ease-in-out 0s;
@@ -377,7 +377,7 @@ section {
     width:339px;
     height:66px;
     margin-bottom:5px;
-    background:url(/images/words.png) no-repeat;
+    background:url(/qinhe/images/words.png) no-repeat;
 }
 .video .swiper-container .nth1 .box .right p {
     font-size:16px;
@@ -388,7 +388,7 @@ section {
     position:absolute;
     width:400%;
     height:1800px;
-    background:url(/images/swiper_nth1_shade.png) no-repeat center top;
+    background:url(/qinhe/images/swiper_nth1_shade.png) no-repeat center top;
     -moz-background-size:cover;
     background-size:cover;
     -webkit-transition:width .8s ease-in-out .3s;
@@ -429,7 +429,7 @@ section {
     opacity:1;
 }
 .video .swiper-container .nth2 {
-    background:url(/images/wp1_2.jpg) 50% 20%;
+    background:url(/qinhe/images/wp1_2.jpg) 50% 20%;
     -moz-background-size:cover;
     background-size:cover;
 }
@@ -453,7 +453,7 @@ section {
     width:320px;
     height:65px;
     margin:10px 0px 8px 0px;
-    background:url(/images/words.png) no-repeat 0px -72px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -72px;
 }
 .video .swiper-container .nth2 .box p {
     margin:0px;
@@ -481,7 +481,7 @@ section {
     filter:alpha(opacity=60);
 }
 .video .swiper-container .nth3 {
-    background:url(/images/wp1_3.jpg) 50% center;
+    background:url(/qinhe/images/wp1_3.jpg) 50% center;
     -moz-background-size:cover;
     background-size:cover;
 }
@@ -513,7 +513,7 @@ section {
     margin:0 auto;
     margin-top:20px;
     margin-bottom:10px;
-    background:url(/images/words.png) no-repeat 0px -219px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -219px;
     -moz-opacity:0;
     opacity:0;
     -webkit-transition:all .3s ease-in-out 0s;
@@ -546,7 +546,7 @@ section {
     opacity:1;
 }
 .video .swiper-container .nth4 {
-    background:url(/images/wp1_4.jpg) 50% top;
+    background:url(/qinhe/images/wp1_4.jpg) 50% top;
     -moz-background-size:cover;
     background-size:cover;
 }
@@ -583,7 +583,7 @@ section {
     height:64px;
     margin:0 auto;
     margin-top:15px;
-    background:url(/images/words.png) no-repeat 0px -147px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -147px;
 }
 .video .swiper-container .nth4 .box .bottom {
     position:relative;
@@ -680,15 +680,15 @@ section {
     margin:0 auto;
     width:47px;
     height:47px;
-    background:url(/images/icons.png) no-repeat 0px -60px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -60px;
     cursor:pointer;
     z-index:99;
 }
 .video .innerBox a.movedown:hover {
-    background:url(/images/icons.png) no-repeat 0px -112px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -112px;
 }
 section.business {
-    background:url(/images/wp2.jpg) 50% bottom;
+    background:url(/qinhe/images/wp2.jpg) 50% bottom;
 }
 .business .box {
     position:relative;
@@ -720,7 +720,7 @@ section.business {
     margin-bottom:20px;
     width:320px;
     height:31px;
-    background:url(/images/words.png) no-repeat 0px -294px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -294px;
 }
 .business .box .caption span {
     font-size:24px;
@@ -734,7 +734,7 @@ section.business {
     width:200px;
     height:300px;
     margin:0 8px;
-    background:url(/images/bg_green.png) no-repeat 0px 400px;
+    background:url(/qinhe/images/bg_green.png) no-repeat 0px 400px;
     overflow:hidden;
 }
 .business .box ul.items li i {
@@ -746,23 +746,23 @@ section.business {
 }
 .business .box ul.items li.pc i {
     width:69px;
-    background:url(/images/words.png) no-repeat -245px -357px;
+    background:url(/qinhe/images/words.png) no-repeat -245px -357px;
 }
 .business .box ul.items li.mobi i {
     width:64px;
-    background:url(/images/words.png) no-repeat -416px -291px;
+    background:url(/qinhe/images/words.png) no-repeat -416px -291px;
 }
 .business .box ul.items li.sys i {
     width:76px;
-    background:url(/images/words.png) no-repeat -415px -362px;
+    background:url(/qinhe/images/words.png) no-repeat -415px -362px;
 }
 .business .box ul.items li.app i {
     width:74px;
-    background:url(/images/words.png) no-repeat -244px -439px;
+    background:url(/qinhe/images/words.png) no-repeat -244px -439px;
 }
 .business .box ul.items li.host i {
     width:79px;
-    background:url(/images/words.png) no-repeat -420px -439px;
+    background:url(/qinhe/images/words.png) no-repeat -420px -439px;
 }
 .business .box ul.items li u {
     display:block;
@@ -770,7 +770,7 @@ section.business {
     width:156px;
     height:156px;
     margin-left:22px;
-    background:url(/images/words.png) no-repeat 0px -363px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -363px;
     -webkit-transition:all .5s ease-in-out 0s;
     -moz-transition:all .5s ease-in-out 0s;
     -ms-transition:all .5s ease-in-out 0s;
@@ -821,19 +821,19 @@ section.business {
     transition:all .5s ease-in-out .4s;
 }
 .business .box ul.items li.pc:hover i {
-    background:url(/images/words.png) no-repeat -168px -357px;
+    background:url(/qinhe/images/words.png) no-repeat -168px -357px;
 }
 .business .box ul.items li.mobi:hover i {
-    background:url(/images/words.png) no-repeat -337px -291px;
+    background:url(/qinhe/images/words.png) no-repeat -337px -291px;
 }
 .business .box ul.items li.sys:hover i {
-    background:url(/images/words.png) no-repeat -327px -362px;
+    background:url(/qinhe/images/words.png) no-repeat -327px -362px;
 }
 .business .box ul.items li.app:hover i {
-    background:url(/images/words.png) no-repeat -164px -439px;
+    background:url(/qinhe/images/words.png) no-repeat -164px -439px;
 }
 .business .box ul.items li.host:hover i {
-    background:url(/images/words.png) no-repeat -335px -439px;
+    background:url(/qinhe/images/words.png) no-repeat -335px -439px;
 }
 .business .box ul.items li:hover u.cl {
     clip:rect(0px,156px,-10px,78px);
@@ -863,10 +863,10 @@ section.business {
     margin-top:-40px;
     width:297px;
     height:21px;
-    background:url(/images/words.png) no-repeat 0px -333px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -333px;
 }
 section.cases {
-    background:url(/images/wp3.jpg);
+    background:url(/qinhe/images/wp3.jpg);
 }
 .cases .box {
     position:relative;
@@ -897,7 +897,7 @@ section.cases {
     margin-bottom:20px;
     width:129px;
     height:37px;
-    background:url(/images/words.png) no-repeat 0px -528px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -528px;
 }
 .cases .box .caption span {
     font-size:24px;
@@ -951,7 +951,7 @@ section.cases {
     margin-top:78px;
     width:44px;
     height:44px;
-    background:url(/images/icons.png) no-repeat 0px -168px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -168px;
 }
 .cases .box .swiper-container.items .swiper-slide p {
     position:absolute;
@@ -1076,7 +1076,7 @@ section.cases {
     background:#2fd0b5;
 }
 section.clients {
-    background:url(/images/wp4.jpg) 50% 90%;
+    background:url(/qinhe/images/wp4.jpg) 50% 90%;
 }
 .clients .box {
     position:relative;
@@ -1107,7 +1107,7 @@ section.clients {
     margin-bottom:20px;
     width:299px;
     height:37px;
-    background:url(/images/words.png) no-repeat -152px -528px;
+    background:url(/qinhe/images/words.png) no-repeat -152px -528px;
 }
 .clients .box .caption span {
     font-size:24px;
@@ -1131,7 +1131,7 @@ section.clients {
 }
 .clients .box ul.items li.cctv {
     top:600px;
-    background:url(/images/clients.png) no-repeat;
+    background:url(/qinhe/images/clients.png) no-repeat;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1139,14 +1139,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.cctv.active {
-    background:url(/images/clients.png) no-repeat 0px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat 0px -150px;
 }
 .clients.active .box ul.items li.cctv {
     top:0px;
 }
 .clients .box ul.items li.ata {
     top:-400px;
-    background:url(/images/clients.png) no-repeat -1150px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -1150px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1154,14 +1154,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.ata.active {
-    background:url(/images/clients.png) no-repeat -1150px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -1150px -150px;
 }
 .clients.active .box ul.items li.ata {
     top:0px;
 }
 .clients .box ul.items li.lenovo {
     top:600px;
-    background:url(/images/clients.png) no-repeat -2530px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -2530px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1169,14 +1169,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.lenovo.active {
-    background:url(/images/clients.png) no-repeat -2530px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -2530px -150px;
 }
 .clients.active .box ul.items li.lenovo {
     top:0px;
 }
 .clients .box ul.items li.apple {
     top:-400px;
-    background:url(/images/clients.png) no-repeat -230px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -230px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1184,14 +1184,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.apple.active {
-    background:url(/images/clients.png) no-repeat -230px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -230px -150px;
 }
 .clients.active .box ul.items li.apple {
     top:0px;
 }
 .clients .box ul.items li.zhongying {
     top:600px;
-    background:url(/images/clients.png) no-repeat -2990px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -2990px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1199,14 +1199,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.zhongying.active {
-    background:url(/images/clients.png) no-repeat -2990px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -2990px -150px;
 }
 .clients.active .box ul.items li.zhongying {
     top:0px;
 }
 .clients .box ul.items li.qinghua {
     top:450px;
-    background:url(/images/clients.png) no-repeat -460px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -460px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1214,14 +1214,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.qinghua.active {
-    background:url(/images/clients.png) no-repeat -460px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -460px -150px;
 }
 .clients.active .box ul.items li.qinghua {
     top:0px;
 }
 .clients .box ul.items li.cas {
     top:-550px;
-    background:url(/images/clients.png) no-repeat -690px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -690px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1229,14 +1229,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.cas.active {
-    background:url(/images/clients.png) no-repeat -690px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -690px -150px;
 }
 .clients.active .box ul.items li.cas {
     top:0px;
 }
 .clients .box ul.items li.zhongxin {
     top:450px;
-    background:url(/images/clients.png) no-repeat -920px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -920px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1244,14 +1244,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.zhongxin.active {
-    background:url(/images/clients.png) no-repeat -920px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -920px -150px;
 }
 .clients.active .box ul.items li.zhongxin {
     top:0px;
 }
 .clients .box ul.items li.haier {
     top:-550px;
-    background:url(/images/clients.png) no-repeat -2772px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -2772px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1259,14 +1259,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.haier.active {
-    background:url(/images/clients.png) no-repeat -2772px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -2772px -150px;
 }
 .clients.active .box ul.items li.haier {
     top:0px;
 }
 .clients .box ul.items li.cosco {
     top:450px;
-    background:url(/images/clients.png) no-repeat -1610px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -1610px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1274,14 +1274,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.cosco.active {
-    background:url(/images/clients.png) no-repeat -1610px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -1610px -150px;
 }
 .clients.active .box ul.items li.cosco {
     top:0px;
 }
 .clients .box ul.items li.das {
     top:300px;
-    background:url(/images/clients.png) no-repeat -1380px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -1380px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1289,14 +1289,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.das.active {
-    background:url(/images/clients.png) no-repeat -1380px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -1380px -150px;
 }
 .clients.active .box ul.items li.das {
     top:0px;
 }
 .clients .box ul.items li.toread {
     top:-700px;
-    background:url(/images/clients.png) no-repeat -3220px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -3220px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1304,14 +1304,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.toread.active {
-    background:url(/images/clients.png) no-repeat -3220px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -3220px -150px;
 }
 .clients.active .box ul.items li.toread {
     top:0px;
 }
 .clients .box ul.items li.neusoft {
     top:300px;
-    background:url(/images/clients.png) no-repeat -1840px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -1840px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1319,14 +1319,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.neusoft.active {
-    background:url(/images/clients.png) no-repeat -1840px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -1840px -150px;
 }
 .clients.active .box ul.items li.neusoft {
     top:0px;
 }
 .clients .box ul.items li.zjgl {
     top:-700px;
-    background:url(/images/clients.png) no-repeat -2300px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -2300px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1334,14 +1334,14 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.zjgl.active {
-    background:url(/images/clients.png) no-repeat -2300px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -2300px -150px;
 }
 .clients.active .box ul.items li.zjgl {
     top:0px;
 }
 .clients .box ul.items li.report {
     top:300px;
-    background:url(/images/clients.png) no-repeat -2070px 0px;
+    background:url(/qinhe/images/clients.png) no-repeat -2070px 0px;
     -webkit-transition:all .8s ease-in-out 0s;
     -moz-transition:all .8s ease-in-out 0s;
     -ms-transition:all .8s ease-in-out 0s;
@@ -1349,7 +1349,7 @@ section.clients {
     transition:all .8s ease-in-out 0s;
 }
 .clients .box ul.items li.report.active {
-    background:url(/images/clients.png) no-repeat -2070px -150px;
+    background:url(/qinhe/images/clients.png) no-repeat -2070px -150px;
 }
 .clients.active .box ul.items li.report {
     top:0px;
@@ -1390,7 +1390,7 @@ section.clients {
     display:none;
 }
 section.quality {
-    background:url(/images/wp5.jpg) 50% 10%;
+    background:url(/qinhe/images/wp5.jpg) 50% 10%;
 }
 .quality .box {
     position:relative;
@@ -1421,7 +1421,7 @@ section.quality {
     margin-bottom:20px;
     width:240px;
     height:37px;
-    background:url(/images/words.png) no-repeat 0px -576px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -576px;
 }
 .quality .box .caption span {
     padding-left:5px;
@@ -1484,52 +1484,52 @@ section.quality {
 .quality .box .swiper-slide ul li.mobi {
     width:14px;
     height:27px;
-    background:url(/images/icons.png) no-repeat 0px -264px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -264px;
 }
 .quality .box .swiper-slide ul li.pad {
     width:29px;
     height:23px;
-    background:url(/images/icons.png) no-repeat -71px -264px;
+    background:url(/qinhe/images/icons.png) no-repeat -71px -264px;
 }
 .quality .box .swiper-slide ul li.pc {
     width:35px;
     height:27px;
-    background:url(/images/icons.png) no-repeat 0px -303px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -303px;
 }
 .quality .box .swiper-slide ul li.windows {
     width:27px;
     height:27px;
-    background:url(/images/icons.png) no-repeat -73px -304px;
+    background:url(/qinhe/images/icons.png) no-repeat -73px -304px;
 }
 .quality .box .swiper-slide ul li.ios {
     width:24px;
     height:30px;
-    background:url(/images/icons.png) no-repeat 0px -344px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -344px;
 }
 .quality .box .swiper-slide ul li.andriod {
     width:28px;
     height:29px;
-    background:url(/images/icons.png) no-repeat -72px -345px;
+    background:url(/qinhe/images/icons.png) no-repeat -72px -345px;
 }
 .quality .box .swiper-slide ul li.ie {
     width:28px;
     height:28px;
-    background:url(/images/icons.png) no-repeat 0px -392px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -392px;
 }
 .quality .box .swiper-slide ul li.chrome {
     width:30px;
     height:30px;
-    background:url(/images/icons.png) no-repeat -71px -392px;
+    background:url(/qinhe/images/icons.png) no-repeat -71px -392px;
 }
 .quality .box .swiper-slide ul li.firefox {
     width:32px;
     height:30px;
-    background:url(/images/icons.png) no-repeat 0px -432px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -432px;
 }
 .quality .box .swiper-slide ul li.safari {
     width:30px;
     height:32px;
-    background:url(/images/icons.png) no-repeat -71px -432px;
+    background:url(/qinhe/images/icons.png) no-repeat -71px -432px;
 }
 .quality .box .swiper-slide ul li span {
     position:absolute;
@@ -1576,7 +1576,7 @@ section.quality {
     display:none;
 }
 section.marketing {
-    background:url(/images/wp6.jpg) 50% 45%;
+    background:url(/qinhe/images/wp6.jpg) 50% 45%;
 }
 .marketing .box {
     position:relative;
@@ -1610,7 +1610,7 @@ section.marketing {
     margin-bottom:20px;
     width:240px;
     height:37px;
-    background:url(/images/words.png) no-repeat right -576px;
+    background:url(/qinhe/images/words.png) no-repeat right -576px;
 }
 .marketing .box .caption span {
     padding-left:5px;
@@ -1637,34 +1637,34 @@ section.marketing {
 }
 .marketing .box ul.items li.se i {
     width:54px;
-    background:url(/images/words.png) no-repeat -144px -632px;
+    background:url(/qinhe/images/words.png) no-repeat -144px -632px;
 }
 .marketing .box ul.items li.weixin i {
     width:74px;
-    background:url(/images/words.png) no-repeat -207px -630px;
+    background:url(/qinhe/images/words.png) no-repeat -207px -630px;
 }
 .marketing .box ul.items li.weibo i {
     width:68px;
-    background:url(/images/words.png) no-repeat -288px -630px;
+    background:url(/qinhe/images/words.png) no-repeat -288px -630px;
 }
 .marketing .box ul.items li.sms i {
     width:61px;
-    background:url(/images/words.png) no-repeat -366px -628px;
+    background:url(/qinhe/images/words.png) no-repeat -366px -628px;
 }
 .marketing .box ul.items li.pay i {
     width:56px;
-    background:url(/images/words.png) no-repeat -438px -639px;
+    background:url(/qinhe/images/words.png) no-repeat -438px -639px;
 }
 .marketing .box ul.items li.bbs i {
     width:51px;
-    background:url(/images/words.png) no-repeat -144px -705px;
+    background:url(/qinhe/images/words.png) no-repeat -144px -705px;
 }
 .marketing .box ul.items li u {
     display:block;
     position:absolute;
     width:128px;
     height:128px;
-    background:url(/images/words.png) no-repeat 0px -624px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -624px;
     -webkit-transition:all .5s ease-in-out 0s;
     -moz-transition:all .5s ease-in-out 0s;
     -ms-transition:all .5s ease-in-out 0s;
@@ -1713,7 +1713,7 @@ section.marketing {
 }
 section.aboutus {
     position:relative;
-    background:url(/images/wp7.jpg) 50% 60%;
+    background:url(/qinhe/images/wp7.jpg) 50% 60%;
     -moz-background-size:cover;
     background-size:cover;
 }
@@ -1836,7 +1836,7 @@ section.aboutus {
     line-height:35px;
     padding-left:30px;
     list-style:none;
-    background:url(/images/point.png) no-repeat 0px 13px;
+    background:url(/qinhe/images/point.png) no-repeat 0px 13px;
 }
 .aboutus .items .swiper-slide.nth3 ul li u {
     margin:0 15px;
@@ -1910,7 +1910,7 @@ section.aboutus {
 }
 section.contact {
     position:relative;
-    background:url(/images/wp8.jpg) 50% bottom;
+    background:url(/qinhe/images/wp8.jpg) 50% bottom;
     -moz-background-size:cover;
     background-size:cover;
 }
@@ -1956,7 +1956,7 @@ section.contact {
     width:243px;
     height:37px;
     text-decoration:none;
-    background:url(/images/words.png) no-repeat 0px -877px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -877px;
 }
 .contact .box .above .left p {
     margin-top:8px;
@@ -2002,7 +2002,7 @@ section.contact {
     margin:0 auto;
     width:424px;
     height:86px;
-    background:url(/images/words.png) no-repeat 0px -787px;
+    background:url(/qinhe/images/words.png) no-repeat 0px -787px;
     -moz-opacity:0;
     opacity:0;
     -webkit-transition:all .6s ease-in-out 0s;
@@ -2053,7 +2053,7 @@ section.contact {
     position:relative;
     width:50px;
     height:50px;
-    background:url(/images/icons.png) no-repeat;
+    background:url(/qinhe/images/icons.png) no-repeat;
     cursor:pointer;
     -webkit-transition:all .3s ease-in-out 0s;
     -moz-transition:all .3s ease-in-out 0s;
@@ -2163,7 +2163,7 @@ section.contact {
     -webkit-border-radius:5px 0px 0px 5px;
     border-radius:5px 0px 0px 5px;
     border:1px solid #00dfb9;
-    background:url(/images/icons.png) no-repeat 8px -706px;
+    background:url(/qinhe/images/icons.png) no-repeat 8px -706px;
     background-color:transparent;
     outline:none;
 }
@@ -2197,7 +2197,7 @@ section.contact {
     right:11px;
     width:26px;
     height:26px;
-    background:url(/images/icons.png) no-repeat 0px -640px;
+    background:url(/qinhe/images/icons.png) no-repeat 0px -640px;
     cursor:pointer;
     -webkit-transition-delay:.15s;
     -moz-transition-delay:.15s;
@@ -2339,7 +2339,7 @@ section.contact {
         right:223px;
         width:15px;
         height:21px;
-        background:url(/images/icons.png) no-repeat 0px -34px;
+        background:url(/qinhe/images/icons.png) no-repeat 0px -34px;
     }
 }@media (max-width:460px) {
     header {
@@ -2373,7 +2373,7 @@ section.contact {
     }
 }@media (max-width:960px) and (max-height:600px) {
     div.welcome {
-        background:url(/images/welcome_h600.jpg) 30% 80%;
+        background:url(/qinhe/images/welcome_h600.jpg) 30% 80%;
     }
 }@media (max-width:800px),(max-height:480px) {
     div.welcome p {
@@ -2383,7 +2383,7 @@ section.contact {
         left:50%;
         margin-top:-110px;
         margin-left:-106px;
-        background:url(/images/welcome_words_mini.png) no-repeat;
+        background:url(/qinhe/images/welcome_words_mini.png) no-repeat;
     }
 }@media (max-height:260px) {
     div.welcome p {
@@ -2396,7 +2396,7 @@ section.contact {
     }
 }@media (max-width:960px) and (max-height:600px) {
     .video .swiper-container .nth1 {
-        background:url(/images/wp1_1_h600.jpg) 50% 35%;
+        background:url(/qinhe/images/wp1_1_h600.jpg) 50% 35%;
     }
 }@media (max-height:750px) {
     .video .swiper-container .nth1 .line {
@@ -2412,7 +2412,7 @@ section.contact {
         width:74px;
         height:139px;
         left:-150px;
-        background:url(/images/words_mini.png) no-repeat top right;
+        background:url(/qinhe/images/words_mini.png) no-repeat top right;
     }
     .video .swiper-container .nth1 .box .right {
         margin-top:8px;
@@ -2425,7 +2425,7 @@ section.contact {
         width:203px;
         height:40px;
         margin:3px 0px 5px 0px;
-        background:url(/images/words_mini.png) no-repeat;
+        background:url(/qinhe/images/words_mini.png) no-repeat;
     }
     .video .swiper-container .nth1 .box .right p {
         font-size:12px;
@@ -2434,7 +2434,7 @@ section.contact {
     }
 }@media (max-width:960px) and (max-height:600px) {
     .video .swiper-container .nth2 {
-        background:url(/images/wp1_2_h600.jpg) 50% 20%;
+        background:url(/qinhe/images/wp1_2_h600.jpg) 50% 20%;
     }
 }@media (max-width:799px) {
     .video .swiper-container .nth2 .box {
@@ -2459,7 +2459,7 @@ section.contact {
         height:40px;
         margin-top:8px;
         margin-bottom:5px;
-        background:url(/images/words_mini.png) no-repeat 0px -45px;
+        background:url(/qinhe/images/words_mini.png) no-repeat 0px -45px;
     }
     .video .swiper-container .nth2 .box p {
         font-size:12px;
@@ -2468,7 +2468,7 @@ section.contact {
     }
 }@media (max-width:960px) and (max-height:600px) {
     .video .swiper-container .nth3 {
-        background:url(/images/wp1_3_h600.jpg) 50% center;
+        background:url(/qinhe/images/wp1_3_h600.jpg) 50% center;
     }
 }@media
 (orientation:landscape) and (max-height:480px),(orientation:portrait) and (max-width:699px) {
@@ -2482,7 +2482,7 @@ section.contact {
         width:216px;
         height:40px;
         margin-top:10px;
-        background:url(/images/words_mini.png) no-repeat 0px -131px;
+        background:url(/qinhe/images/words_mini.png) no-repeat 0px -131px;
     }
     .video .swiper-container .nth3 .box .bottom {
         font-size:12px;
@@ -2491,7 +2491,7 @@ section.contact {
     }
 }@media (max-width:960px) and (max-height:600px) {
     .video .swiper-container .nth4 {
-        background:url(/images/wp1_4_h600.jpg) 50% top;
+        background:url(/qinhe/images/wp1_4_h600.jpg) 50% top;
     }
 }@media
 (orientation:landscape) and (max-height:480px),(orientation:portrait) and (max-width:699px) {
@@ -2501,7 +2501,7 @@ section.contact {
     .video .swiper-container .nth4 .box .top i {
         width:143px;
         height:38px;
-        background:url(/images/words_mini.png) no-repeat 0px -88px;
+        background:url(/qinhe/images/words_mini.png) no-repeat 0px -88px;
     }
     .video .swiper-container .nth4 .box .bottom {
         font-size:12px;
@@ -2740,27 +2740,27 @@ section.contact {
     .business .box ul.items li.pc i {
         width:46px;
         height:35px;
-        background:url(/images/words_mini.png) no-repeat -145px -217px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -145px -217px;
     }
     .business .box ul.items li.mobi i {
         width:46px;
         height:39px;
-        background:url(/images/words_mini.png) no-repeat -245px -176px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -245px -176px;
     }
     .business .box ul.items li.sys i {
         width:46px;
         height:35px;
-        background:url(/images/words_mini.png) no-repeat -249px -220px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -249px -220px;
     }
     .business .box ul.items li.app i {
         width:46px;
         height:41px;
-        background:url(/images/words_mini.png) no-repeat -146px -264px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -146px -264px;
     }
     .business .box ul.items li.host i {
         width:47px;
         height:38px;
-        background:url(/images/words_mini.png) no-repeat -253px -266px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -253px -266px;
     }
     .business .box ul.items li p {
         display:none;
@@ -2769,19 +2769,19 @@ section.contact {
         margin-left:15px;
     }
     .business .box ul.items li.pc:hover i {
-        background:url(/images/words_mini.png) no-repeat -100px -217px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -100px -217px;
     }
     .business .box ul.items li.mobi:hover i {
-        background:url(/images/words_mini.png) no-repeat -201px -176px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -201px -176px;
     }
     .business .box ul.items li.sys:hover i {
-        background:url(/images/words_mini.png) no-repeat -196px -220px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -196px -220px;
     }
     .business .box ul.items li.app:hover i {
-        background:url(/images/words_mini.png) no-repeat -100px -264px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -100px -264px;
     }
     .business .box ul.items li.host:hover i {
-        background:url(/images/words_mini.png) no-repeat -201px -266px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -201px -266px;
     }
 }@media (max-width:929px) and (max-height:460px) {
     .business .box ul.items {
@@ -2897,11 +2897,11 @@ section.contact {
     }
 }@media (max-width:1280px) and (max-height:800px) {
     section.cases {
-        background:url(/images/wp3_h800.jpg);
+        background:url(/qinhe/images/wp3_h800.jpg);
     }
 }@media (max-width:960px) and (max-height:600px) {
     section.cases {
-        background:url(/images/wp3_h600.jpg);
+        background:url(/qinhe/images/wp3_h600.jpg);
     }
 }@media (min-width:1151px) and (max-height:700px) {
     .cases .box .swiper-container.items {
@@ -3056,11 +3056,11 @@ section.contact {
     }
     .cases .box a.prev {
         left:30px;
-        background:url(/images/icons.png) no-repeat 0px -219px;
+        background:url(/qinhe/images/icons.png) no-repeat 0px -219px;
     }
     .cases .box a.next {
         right:30px;
-        background:url(/images/icons.png) no-repeat -25px -219px;
+        background:url(/qinhe/images/icons.png) no-repeat -25px -219px;
     }
 }@media (orientation:portrait) and (max-width:900px) and (max-height:700px) {
     .cases .box .swiper-container.mini {
@@ -3149,11 +3149,11 @@ section.contact {
     }
 }@media (max-width:1280px) and (max-height:800px) {
     section.clients {
-        background:url(/images/wp4_h800.jpg) 50% 90%;
+        background:url(/qinhe/images/wp4_h800.jpg) 50% 90%;
     }
 }@media (max-width:960px) and (max-height:600px) {
     section.clients {
-        background:url(/images/wp4_h600.jpg) 50% 90%;
+        background:url(/qinhe/images/wp4_h600.jpg) 50% 90%;
     }
 }@media (max-width:1150px) {
     .clients .box ul.items {
@@ -3219,7 +3219,7 @@ section.contact {
         float:left;
         width:200px;
         padding:8px 0 8px 40px;
-        background:url(/images/point.png) no-repeat 20px 15px;
+        background:url(/qinhe/images/point.png) no-repeat 20px 15px;
         z-index:20;
     }
     .clients .box ul.mini li.bg.all {
@@ -3299,11 +3299,11 @@ section.contact {
     }
 }@media (max-width:1280px) and (max-height:800px) {
     section.quality {
-        background:url(/images/wp5_h800.jpg) 50% 10%;
+        background:url(/qinhe/images/wp5_h800.jpg) 50% 10%;
     }
 }@media (max-width:960px) and (max-height:600px) {
     section.quality {
-        background:url(/images/wp5_h600.jpg) 50% 10%;
+        background:url(/qinhe/images/wp5_h600.jpg) 50% 10%;
     }
 }@media (max-width:960px) {
     .quality .box .items {
@@ -3336,11 +3336,11 @@ section.contact {
     }
     .quality .box a.prev {
         left:30px;
-        background:url(/images/icons.png) no-repeat 0px -219px;
+        background:url(/qinhe/images/icons.png) no-repeat 0px -219px;
     }
     .quality .box a.next {
         right:30px;
-        background:url(/images/icons.png) no-repeat -25px -219px;
+        background:url(/qinhe/images/icons.png) no-repeat -25px -219px;
     }
 }@media (max-height:730px) {
     .quality .box .items,.quality .box .mini {
@@ -3383,11 +3383,11 @@ section.contact {
     }
 }@media (max-width:1280px) and (max-height:800px) {
     section.marketing {
-        background:url(/images/wp6_h800.jpg) 50% 45%;
+        background:url(/qinhe/images/wp6_h800.jpg) 50% 45%;
     }
 }@media (max-width:960px) and (max-height:600px) {
     section.marketing {
-        background:url(/images/wp6_h600.jpg) 50% 45%;
+        background:url(/qinhe/images/wp6_h600.jpg) 50% 45%;
     }
 }@media (max-width:1100px) {
     .marketing .box ul.items li {
@@ -3470,31 +3470,31 @@ section.contact {
     .marketing .box ul.items li.se i {
         width:33px;
         margin:0 6px;
-        background:url(/images/words_mini.png) no-repeat -86px -380px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -86px -380px;
     }
     .marketing .box ul.items li.weixin i {
         width:45px;
-        background:url(/images/words_mini.png) no-repeat -124px -377px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -124px -377px;
     }
     .marketing .box ul.items li.weibo i {
         width:42px;
         margin:0 1px 0 2px;
-        background:url(/images/words_mini.png) no-repeat -172px -377px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -172px -377px;
     }
     .marketing .box ul.items li.sms i {
         width:38px;
         margin:0 3px 0 4px;
-        background:url(/images/words_mini.png) no-repeat -219px -374px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -219px -374px;
     }
     .marketing .box ul.items li.pay i {
         width:34px;
         margin:0 5px 0 6px;
-        background:url(/images/words_mini.png) no-repeat -263px -382px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -263px -382px;
     }
     .marketing .box ul.items li.bbs i {
         width:31px;
         margin:0 7px;
-        background:url(/images/words_mini.png) no-repeat -86px -422px;
+        background:url(/qinhe/images/words_mini.png) no-repeat -86px -422px;
     }
     .marketing .box ul.items li strong,.marketing.active .box ul.items li strong {
         float:left;
@@ -3590,11 +3590,11 @@ section.contact {
     }
 }@media (max-width:1280px) and (max-height:800px) {
     section.aboutus {
-        background:url(/images/wp7_h800.jpg) 50% 60%;
+        background:url(/qinhe/images/wp7_h800.jpg) 50% 60%;
     }
 }@media (max-width:960px) and (max-height:600px) {
     section.aboutus {
-        background:url(/images/wp7_h600.jpg) 50% 60%;
+        background:url(/qinhe/images/wp7_h600.jpg) 50% 60%;
     }
 }@media (max-width:1200px) {
     .aboutus table.exp td:nth-child(2) {
@@ -3857,11 +3857,11 @@ section.contact {
     }
 }@media (max-width:1280px) and (max-height:800px) {
     section.contact {
-        background:url(/images/wp8_h800.jpg) 50% bottom;
+        background:url(/qinhe/images/wp8_h800.jpg) 50% bottom;
     }
 }@media (max-width:960px) and (max-height:600px) {
     section.contact {
-        background:url(/images/wp8_h600.jpg) 50% 10%;
+        background:url(/qinhe/images/wp8_h600.jpg) 50% 10%;
     }
 }@media (max-width:950px) {
     .contact .box {
@@ -3946,7 +3946,7 @@ section.contact {
         display:none;
     }
     html {
-        background:url(/images/displayNone.png) no-repeat 50% top;
+        background:url(/qinhe/images/displayNone.png) no-repeat 50% top;
         background-color:#333a32;
     }
 }.clear {
