@@ -39,6 +39,7 @@
             <li><a>关于</a></li>
             <li><a>联系</a></li>
           </ul>
+            <i class="line" style="display: inline; width: 54px; left: 424px;"></i>
         </nav>
         <div class="hotline">
           <a href="tel:4006123011" title="网站建设免费咨询热线"><span>4006-123-011</span></a><u></u>
@@ -218,26 +219,38 @@
                 </div>
                 <ul class="items list-inline">
                     <li class="se">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
                         <i></i><strong>搜索引擎</strong>
                         <p>SEO 优化<br />搜索引擎竞价</p>
                     </li>
                     <li class="weixin">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
                         <i></i><strong>微信营销</strong>
                         <p>公众账号 / 微网站<br />微盟 ( 微社区 )</p>
                     </li>
                     <li class="weibo">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
                         <i></i><strong>微博营销</strong>
                         <p>企业蓝V认证<br />官方微博接入网站</p>
                     </li>
                     <li class="sms">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
                         <i></i><strong>消息推送</strong>
                         <p>短信平台接口<br />Email 推送</p>
                     </li>
                     <li class="pay">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
                         <i></i><strong>在线支付</strong>
                         <p>支付宝、银联<br />Paypal 接口</p>
                     </li>
                     <li class="bbs">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
                         <i></i><strong>论坛聚人</strong>
                         <p>独立开发<br />会员打通</p>
                     </li>
@@ -246,8 +259,12 @@
         </section>
 
         <section class="section aboutus">
-            <ul class="menu"><li>思想</li><li>关于</li><li>荣誉</li></ul>
-            <div class="swiper-container items">
+            <ul class="menu"><li class="active">思想</li><li>关于</li><li>荣誉</li>
+                <li class="bg all" style="height: 126px;"></li>
+                <li class="bg one" style="height: 22px; top:0; left: 0px;"></li>
+            </ul>
+
+            <div class="swiper-container items swiper-2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide nth1">
                         <strong>厚积薄发</strong>
@@ -294,10 +311,11 @@
                         Email：Service@1000zhu.com<br />中文域名：千助.中国<u>/</u>千助.com<br />Copyright 2008-2015<u></u>千助科技 版权所有<br />京ICP备 08102474 号<br />京公网安备 11010802010984 号
                     </div>
                 </div>
+                <div class="below"><i></i></div>
             </div>
         </section>
 
-        <div class="section dock">
+        <div class="dock">
             <ul class="icons">
                 <li class="up"><i></i></li>
                 <li class="im">
@@ -318,6 +336,8 @@
 </body>
 <script>
     $(function(){
+        var $menu = $('header nav.menu ul li');
+        var $menuLine = $('header nav.menu .line');
         $('#wrapper').fullpage({
             'verticalCentered': false,
             'css3': true,
@@ -329,10 +349,29 @@
                 if(index===2 && nextIndex===1){
                     $('header').removeClass('fixed')
                 }
+                $menu.removeClass('active').eq(nextIndex-1).addClass('active');
+                $menuLine.animate({
+                    width:$menu.eq(0).outerWidth(true),
+                    left:$menu.eq(nextIndex-1).position().left
+                })
             }
         });
         var winHeight= $(window).height();
+
+        //第一页swiper
         var mySwiper = new Swiper('.swiper-container',{
+            loop:true,
+            grabCursor: true,
+            paginationClickable: true,
+            pagination:'.video .innerBox .guide',
+            paginationVisibleClass:'active',
+            paginationElement:'a'
+        })
+        //添加选择器
+
+
+
+        var mySwiper2 = new Swiper('.swiper-2',{
             loop:true,
             grabCursor: true,
             paginationClickable: true
@@ -365,6 +404,25 @@
             var $wrap = $(elm);
             $wrap.css({
                 top:(winHeight - $wrap.outerHeight(true))/2
+            })
+        }
+
+        initAboutAnimate()
+        function initAboutAnimate(){
+            var $panWrap = $('.aboutus ul.menu');
+            var $panLi = $panWrap.find('li');
+            var $sOne = $('.bg.one');
+
+            $panLi.each(function(index,item){
+                if(index<3){
+                    $(item).on('mouseover',function (){
+                        $sOne.css({
+                            top:$(item).position().top
+                        },200)
+                        $(item).addClass('active').siblings().removeClass('active');
+                        mySwiper2.swipeTo(index, 500, false)
+                    });
+                }
             })
         }
     })
